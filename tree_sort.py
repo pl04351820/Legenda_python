@@ -7,7 +7,7 @@ class node():
         self.val = val
         self.left = None 
         self.right = None 
-    
+
     def insert(self,val):
         if self.val:
             if val < self.val:
